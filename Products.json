@@ -6,7 +6,7 @@
             "price": "&#8377; 1000",
             "description": "Ascorise is a high-quality vitamin C supplement for aquatic animals, enhancing immunity and overall health.",
             "buttonId": "ascorise",
-            "url":"./products/ascorise.html"
+            "url":"./Products/ascorise.html"
         },
         {
             "name": "BACTO INSTANT",
@@ -14,7 +14,7 @@
             "price": "&#8377; 1000",
             "description": "Bacto Instant provides immediate probiotic support to aquaculture ponds, promoting healthy microbial balance.",
             "buttonId": "bacto-instant",
-            "url":"./products/bacto-instant.html",
+            "url":"./Products/bacto-instant.html",
             "cat":"probiotics"
         },
         {
@@ -23,7 +23,7 @@
             "price": "&#8377; 1200",
             "description": "Bacto Pro is a premium probiotic supplement designed to enhance the health and growth of aquatic animals.",
             "buttonId": "bacto-pro",
-            "url":"./products/bacto-pro.html",
+            "url":"./Products/bacto-pro.html",
             "cat":"probiotics"
         },
         {
@@ -32,7 +32,7 @@
             "price": "&#8377; 1000",
             "description": "Bacto Qs offers a quick and efficient solution for improving water quality in aquaculture ponds.",
             "buttonId": "bacto-qs",
-            "url":"./products/bacto-qs.html",
+            "url":"./Products/bacto-qs.html",
             "cat":"probiotics"
         },
         {
@@ -41,7 +41,7 @@
             "price": "&#8377; 1000",
             "description": "Cal Cl is a calcium chloride supplement that helps in maintaining the calcium balance in pond water.",
             "buttonId": "cal-cl",
-            "url":"./products/cal-cl.html",
+            "url":"./Products/cal-cl.html",
             "cat":"lab-grades"
         },
         {
@@ -50,7 +50,7 @@
             "price": "&#8377; 1000",
             "description": "Extrem Min is a mineral supplement designed to support the optimal growth and health of aquatic animals.",
             "buttonId": "extrem-min",
-            "url":"./products/extrem-min.html",
+            "url":"./Products/extrem-min.html",
             "cat":"minerals"
         },
         {
@@ -59,7 +59,7 @@
             "price": "&#8377; 1000",
             "description": "Grow Herb is a natural herbal supplement that promotes the growth and vitality of aquatic plants and animals.",
             "buttonId": "grow-herb",
-            "url":"./products/grow-herb.html",
+            "url":"./Products/grow-herb.html",
             "cat":"promotors"
         },
         {
@@ -68,7 +68,7 @@
             "price": "&#8377; 1000",
             "description": "Hepano Clear is a liver tonic for aquatic animals that aids in detoxification and improves overall health.",
             "buttonId": "hepano-clear",
-            "url":"./products/hepano-clear.html",
+            "url":"./Products/hepano-clear.html",
             "cat":"promotors"
         },
         {
@@ -77,7 +77,7 @@
             "price": "&#8377; 1000",
             "description": "Immuno Gel is a health supplement that boosts the immune system of aquatic animals, enhancing their resistance to diseases.",
             "buttonId": "immuno-gel",
-            "url":"./products/immuno-gel.html"
+            "url":"./Products/immuno-gel.html"
         },
         {
             "name": "POTASSIUM CHLORIDE",
@@ -85,7 +85,7 @@
             "price": "&#8377; 1000",
             "description": "KCL is a potassium chloride supplement that helps in maintaining the potassium levels in pond water, essential for aquatic health.",
             "buttonId": "kcl",
-            "url":"./products/kcl.html",
+            "url":"./Products/kcl.html",
             "cat":"lab-grades"
 
         },
@@ -95,7 +95,7 @@
             "price": "&#8377; 1000",
             "description": "MgCL is a magnesium chloride supplement that supports the health and growth of aquatic plants and animals.",
             "buttonId": "mgcl",
-            "url":"./products/mgcl.html",
+            "url":"./Products/mgcl.html",
             "cat":"lab-grades"
 
         },
@@ -105,7 +105,7 @@
             "price": "&#8377; 1000",
             "description": "Micro Cure 5lt is a comprehensive microbial solution designed to improve water quality and health in large aquaculture systems.",
             "buttonId": "micro-cure-5lt",
-            "url":"./products/micro-cure-5lt.html"
+            "url":"./Products/micro-cure-5lt.html"
         },
         {
             "name": "O2 FRESH POWDER",
@@ -114,7 +114,7 @@
             "description": "O2 Fresh Grans is a granulated oxygen supplement that improves the dissolved oxygen levels in pond water, promoting aquatic health.",
             "buttonId": "o2-fresh-grans",
             "cat":"oxidizers",
-            "url":"./products/o2-fresh-powder.html"
+            "url":"./Products/o2-fresh-powder.html"
         },
         {
             "name": "O2 FRESH TAB",
@@ -123,7 +123,7 @@
             "description": "O2 Fresh is a liquid oxygen supplement that enhances the dissolved oxygen levels in aquaculture ponds, supporting aquatic life.",
             "buttonId": "o2-fresh",
             "cat":"oxidizers",
-            "url":"./products/o2-fresh.html"
+            "url":"./Products/o2-fresh.html"
         },
         {
             "name": "O2 FRESH GRANS",
@@ -132,7 +132,7 @@
             "description": "O2 Fresh is a liquid oxygen supplement that enhances the dissolved oxygen levels in aquaculture ponds, supporting aquatic life.",
             "buttonId": "o2-fresh",
             "cat":"oxidizers",
-            "url":"./products/o2-fresh-grans.html"
+            "url":"./Products/o2-fresh-grans.html"
         },
         {
             "name": "SLUDGE CATCHER PS",
@@ -140,7 +140,7 @@
             "price": "&#8377; 1000",
             "description": "Sludge Catcher is an effective solution for removing sludge and organic waste from pond bottoms, improving water quality.",
             "buttonId": "sludge-catcher",
-            "url":"./products/sludge-catcher.html"
+            "url":"./Products/sludge-catcher.html"
         },
         {
             "name": "TRAC MIN BUCKET",
@@ -148,7 +148,7 @@
             "price": "&#8377; 1000",
             "description": "Trac Min Buck is a mineral supplement in a convenient bucket format, designed to support the health and growth of aquatic animals.",
             "buttonId": "trac-min-buck",
-            "url":"./products/trac-min-buck.html",
+            "url":"./Products/trac-min-buck.html",
             "cat":"minerals"
         },
         {
@@ -157,7 +157,7 @@
             "price": "&#8377; 1000",
             "description": "Ultra Pro is a high-performance probiotic supplement that promotes the health and vitality of aquatic animals.",
             "buttonId": "ultra-pro",
-            "url":"./products/ultra-pro.html",
+            "url":"./Products/ultra-pro.html",
             "cat":"promotors"
         },
         {
@@ -166,7 +166,7 @@
             "price": "&#8377; 1000",
             "description": "Ultra Soft Buck is a softening agent that helps to maintain the optimal hardness of pond water, supporting aquatic life.",
             "buttonId": "ultra-soft-buck",
-            "url":"./products/ultra-soft-buck.html",
+            "url":"./Products/ultra-soft-buck.html",
             "cat":"edta"
         },
         {
@@ -175,7 +175,7 @@
             "price": "&#8377; 1000",
             "description": "Ultra Soft Poucj is a softening agent in a convenient pouch format, designed to maintain the hardness of pond water.",
             "buttonId": "ultra-soft-poucj",
-            "url":"./products/ultra-soft-poucj.html",
+            "url":"./Products/ultra-soft-poucj.html",
             "cat":"edta"
         },
         {
@@ -184,7 +184,7 @@
             "price": "&#8377; 1000",
             "description": "Ultra Soil is a soil conditioner that enhances the quality of pond soil, promoting healthy plant and animal growth.",
             "buttonId": "ultra-soil",
-            "url":"./products/ultra-soil.html"
+            "url":"./Products/ultra-soil.html"
         },
         {
             "name": "Yeast",
@@ -192,7 +192,7 @@
             "price": "&#8377; 1000",
             "description": "Yeast is a natural probiotic supplement that supports the digestive health and overall well-being of aquatic animals.",
             "buttonId": "yeast",
-            "url":"./products/yeast.html"
+            "url":"./Products/yeast.html"
         },
         {
             "name": "Zeonix-G Bag",
@@ -200,7 +200,7 @@
             "price": "&#8377; 1000",
             "description": "Zeonix Bag is a zeolite-based product that helps in maintaining water quality and promoting the health of aquatic animals.",
             "buttonId": "zeonix-bag",
-            "url":"./products/zeonix-bag.html"
+            "url":"./Products/zeonix-bag.html"
         },
         {
             "name": "Zeonix-G Bucket",
@@ -208,7 +208,7 @@
             "price": "&#8377; 1000",
             "description": "Zeonix Buck is a zeolite-based product in a convenient bucket format, designed to maintain water quality and promote aquatic health.",
             "buttonId": "zeonix-buck",
-            "url":"./products/zeonix-buck.html"
+            "url":"./Products/zeonix-buck.html"
         }
     ]
 }
