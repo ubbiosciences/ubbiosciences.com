@@ -13,7 +13,7 @@
     <meta name="keywords"
         content="UB Biosciences, biotechnology, biosciences, research, Hyderabad, innovative solutions, biotechnology company, Telangana">
     <meta name="author" content="UB Biosciences">
-    <link rel="icon" href="./Images/ICON.png" type="image/x-icon">
+    <link rel="icon" href="../Images/ICON.png" type="image/x-icon">
 
     <!-- Open Graph Meta Tags for Social Media -->
     <meta property="og:title" content="UB Biosciences - Leading Innovations in Biotechnology">
@@ -23,10 +23,19 @@
     <meta property="og:url" content="https://ubbiosciences.com/">
     <meta property="og:type" content="website">
 
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="UB Biosciences - Leading Innovations in Biotechnology">
+    <meta name="twitter:description"
+        content="UB Biosciences is a leading biotechnology company in Hyderabad, specializing in innovative solutions and research in the biosciences field.">
+    <meta name="twitter:image" content="https://tiny-dusk-431ded.netlify.app/Images/UB-Biosciences-Logo.jpg">
+    <meta name="twitter:url" content="https://tiny-dusk-431ded.netlify.app/">
+
     <!-- 
     - custom css links
   -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- 
@@ -60,13 +69,13 @@
         <div class="container">
 
             <h1>
-                <a href="./index.html" class="logo"><img src="./Images/UB-Biosciences-Logo.webp" alt=""></a>
+                <a href="../index.html" class="logo"><img src="../Images/UB-Biosciences-Logo.webp" alt=""></a>
             </h1>
 
             <nav class="navbar" data-navbar>
 
                 <div class="navbar-top">
-                    <a href="./index.html" class="logo">UB Biosciences</a>
+                    <a href="../index.html" class="logo">UB Biosciences</a>
 
                     <button class="nav-close-btn" aria-label="Close menu" data-nav-toggler>
                         <ion-icon name="close-outline"></ion-icon>
@@ -76,15 +85,15 @@
                 <ul class="navbar-list">
 
                     <li class="navbar-item">
-                        <a href="index.html#home" class="navbar-link" data-nav-toggler>Home</a>
+                        <a href="../index.html#home" class="navbar-link" data-nav-toggler>Home</a>
                     </li>
 
                     <li class="navbar-item">
-                        <a href="index.html#about" class="navbar-link" data-nav-toggler>About</a>
+                        <a href="../index.html#about" class="navbar-link" data-nav-toggler>About</a>
                     </li>
 
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link" data-nav-toggler>Products</a>
+                        <a href="../products.html" class="navbar-link" data-nav-toggler>Products</a>
                     </li>
 
                     <li class="navbar-item">
@@ -113,39 +122,6 @@
 
         </div>
     </header>
-    <style>
-        #category-buttons {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-            flex-wrap: wrap;
-        }
-
-        .category-button {
-            background-color: #007bff;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            margin: 5px;
-            font-size: 16px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .category-button:hover {
-            background-color: #0056b3;
-        }
-
-        .category-button.active {
-            background-color: #28a745;
-        }
-
-        .category-button:focus {
-            outline: none;
-            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
-        }
-    </style>
 
 
     <!-- 
@@ -153,18 +129,35 @@
       -->
 
     <section class="hero" id="home" aria-label="hero">
-        <div id="category-buttons">
-            <button class="category-button" data-category="all">All</button>
-            <button class="category-button" data-category="probiotics">Probiotics</button>
-            <button class="category-button" data-category="lab-grades">Lab Grades</button>
-            <button class="category-button" data-category="minerals">Minerals</button>
-            <button class="category-button" data-category="promotors">Growth Promotors</button>
-            <button class="category-button" data-category="edta">EDTA</button>
-            <button class="category-button" data-category="oxidizers">Oxidizers</button>
+        <div class="product">
+            <div class="product-image">
+                <img src="../Images/Products/AmClean.webp" alt="Ascorise">
+                <h1 class="product-title">AM CLEAN</h1>
+            </div>
+            <div class="product-info">
+                <h2>COMPOSITION:</h2>
+                <p>Bacillus subtilis fermentation extract, Bacillus licheniformis fermentation extract, Lactobacillus
+                    acidophilus and Yucca schidigera extract (50%).</p>
+                <div class="benefits">
+                    <h2>BENEFITS:</h2>
+                    <ul>
+                        <li>AMCLEAN eliminates harmful gasses: ammonia, sulfur dioxide, hydrogen sulfide (H₂S), and
+                            methane.</li>
+                        <li>Maintains the pond bottom and clears toxic gases from the water.</li>
+                        <li>Contains Yucca schidigera which aids in ammonia adsorption in the pond bottom.</li>
+                        <li>Improves the health and production of fish and shrimp cultures.</li>
+                    </ul>
+                    <h2>DOSAGE:</h2>
+                    <p>
+                        Shrimp: 500 grams per Acre or as advised by an Aquaculture consultant. <br>
+                        Fish: 300 grams per Acre or as advised by an Aquaculture consultant.
+                    </p>
+                    <h2>PRESENTATION:</h2>
+                    <p>500 Grams Jar</p>
+                </div>
+                <button class="add-to-cart">Buy Now</button>
+            </div>
         </div>
-
-        <div class="product-grid" id="product-grid"></div>
-
     </section>
 
 
@@ -369,7 +362,7 @@
     <!-- 
     - custom js link
   -->
-    <script src="script.js" defer></script>
+    <script src="../script.js" defer></script>
 
     <!-- 
     - ionicon link
@@ -377,61 +370,6 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <script>
-       document.addEventListener('DOMContentLoaded', function () {
-    const productContainer = document.getElementById('product-grid');
-    const categoryButtons = document.querySelectorAll('.category-button');
-
-    function displayProducts(products) {
-        productContainer.innerHTML = '';
-        products.forEach(product => {
-            const productCard = document.createElement('div');
-            productCard.className = 'card';
-            productCard.innerHTML = `
-                <div class="fixed-container">
-                    <img src="${product.imageSrc}" alt="${product.name}" style="width: 100%;">
-                </div>
-                <h1>${product.name}</h1>
-                <p class="price">MRP - ${product.price}</p>
-                <p>${product.description}</p>
-                <button id="${product.buttonId}"><a href="${product.url}">View details</a></button>
-            `;
-            productContainer.appendChild(productCard);
-        });
-    }
-
-    fetch('Products.json')
-        .then(response => response.json())
-        .then(data => {
-            displayProducts(data.products); // Display all products by default
-
-            categoryButtons.forEach(button => {
-                button.addEventListener('click', function () {
-                    // Remove active class from all buttons
-                    categoryButtons.forEach(btn => btn.classList.remove('active'));
-                    // Add active class to the clicked button
-                    this.classList.add('active');
-
-                    // Filter products based on the selected category
-                    const category = this.getAttribute('data-category');
-                    if (category === 'all') {
-                        displayProducts(data.products);
-                    } else {
-                        const filteredProducts = data.products.filter(product => product.cat === category);
-                        displayProducts(filteredProducts);
-                    }
-                });
-            });
-
-            // Set "All" button as active by default
-            document.querySelector('.category-button[data-category="all"]').classList.add('active');
-        })
-        .catch(error => {
-            console.error('Error fetching data:', error);
-        });
-});
-
-    </script>
 
 </body>
 
