@@ -14,7 +14,8 @@
             "price": "1296",
             "description": "AM CLEAN is a high-performance cleaning solution designed to tackle the toughest stains and grime. Ideal for both residential and commercial use.",
             "buttonId": "amclean",
-            "url": "./Products/amclean.html"
+            "url": "./Products/amclean.html",
+            "cat":"ammonia"
         },
         {
             "name": "BACTO INSTANT",
