@@ -4,7 +4,7 @@
   <!-- Main Pages -->
   <url>
     <loc>http://www.ubbiosciences.com/</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
@@ -14,124 +14,129 @@
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/products.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.90</priority>
   </url>
 
   <!-- Product Pages -->
   <url>
     <loc>http://www.ubbiosciences.com/Products/ascorise.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://www.ubbiosciences.com/Products/amclean.html</loc>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/bacto-instant.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/bacto-pro.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/bacto-qs.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/cal-cl.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/extrem-min.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/grow-herb.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/hepano-clear.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/immuno-gel.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/kcl.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/mgcl.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/micro-cure-5lt.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/o2-fresh-grans.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/o2-fresh-powder.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/o2-fresh.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/sludge-catcher.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/trac-min-buck.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/trac-min.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/ultra-pro.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/ultra-soft-buck.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/ultra-soil.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/yeast.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>http://www.ubbiosciences.com/Products/zeonix-bag.html</loc>
-    <lastmod>2024-07-01</lastmod>
+    <lastmod>2024-07-09</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>
