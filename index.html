@@ -58,6 +58,36 @@
 </head>
 
 <body id="top">
+    <style>
+        .slider-container {
+            width: auto;
+            height: 700px;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 1s ease;
+        }
+
+        .slider a {
+            flex: 0 0 100%;
+        }
+
+        .slider img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+        @media (max-width: 768px) {
+            .slider img {
+                scale: 1.05;
+            }
+        }
+    </style>
 
 
     <!-- 
@@ -168,9 +198,25 @@
             <figure class="about-banner">
 
                 <picture>
-                    <source srcset="./Images/About-Banner-2.webp" type="image/webp">
-                    <img src="./Images/About-Banner-2.png" width="450" height="590" loading="lazy" alt="about banner"
-                        class="w-100 about-img">
+                    <div>
+                    <div class="slider-container">
+                        <div class="slider">
+                            <a href="./Products/trac-min-buck.html">
+                                <img src="./Images/Banner-1.webp" alt="TRAC MIN">
+                            </a>
+                            <a href="./Products/zeonix-bag.html">
+                                <img src="./Images/Banner-2.webp" alt="ZENOIX BUCKET">
+                            </a>
+                            <a href="./Products/o2-fresh-grans.html">
+                                <img src="./Images/Banner-3.webp" alt="O2 FRESH GRANULES BUCKET">
+                            </a>
+                            <a href="./Products/ultra-soil.html">
+                                <img src="./Images/Banner-4.webp" alt="Ultra Soil">
+                            </a>
+                            
+                            <!-- Add more images as needed -->
+                        </div>
+                    </div>
                 </picture>
 
 
@@ -414,7 +460,9 @@
                         <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
 
                         <address class="footer-link">
-                            <a href="https://maps.app.goo.gl/s2B9bTTxEuJyKRLV6" class="footer-link" target="_blank">Starlite Pavilion, Bhagath Singh Nagar, Balanagar, Hyderabad, Telangana 500037</a>
+                            <a href="https://maps.app.goo.gl/s2B9bTTxEuJyKRLV6" class="footer-link"
+                                target="_blank">Starlite Pavilion, Bhagath Singh Nagar, Balanagar, Hyderabad, Telangana
+                                500037</a>
                         </address>
                     </li>
 
@@ -428,7 +476,8 @@
                     <li class="footer-item">
                         <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
 
-                        <a href="mailto:ubbiosciences@gmail.com?subject=Contact from ubbiosciences.com Website" class="footer-link">ubbiosciences@gmail.com</a>
+                        <a href="mailto:ubbiosciences@gmail.com?subject=Contact from ubbiosciences.com Website"
+                            class="footer-link">ubbiosciences@gmail.com</a>
                     </li>
 
                 </ul>
@@ -468,6 +517,27 @@
   -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const slider = document.querySelector('.slider');
+            const images = document.querySelectorAll('.slider a');
+            let currentIndex = 0;
+
+            function slide() {
+                currentIndex = (currentIndex + 1) % images.length;
+                slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+            }
+
+            setInterval(slide, 3000); // Change image every 3 seconds
+
+            images.forEach((image, index) => {
+                image.addEventListener('click', () => {
+                    window.location.href = image.href;
+                });
+            });
+        });
+    </script>
 
 </body>
 
