@@ -102,7 +102,8 @@
 
             <div class="header-actions">
 
-                <a href="/products.html" class="header-action-btn login-btn" aria-hidden="true" id="loginBtn">
+                <a href="https://pages.razorpay.com/stores/st_OXpfwE7xASeVdZ/checkout"
+                    class="header-action-btn login-btn" aria-hidden="true" id="loginBtn">
                     <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
                     <span class="span" id="products">Cart</span>
                 </a>
@@ -150,8 +151,12 @@
                     </p>
                     <h2>PRESENTATION:</h2>
                     <p>500 Grams Jar</p>
+                    <p class="price">
+                        <span class="discounted-price">Rs. 1296.00</span>
+                        <span class="original-price">Rs. 1851.00</span>
+                    </p>
                 </div>
-                <button class="add-to-cart">Buy Now</button>
+                <button id="am-clean" class="add-to-cart">Buy Now</button>
             </div>
         </div>
     </section>
@@ -313,7 +318,9 @@
                         <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
 
                         <address class="footer-link">
-                            <a href="https://maps.app.goo.gl/s2B9bTTxEuJyKRLV6" class="footer-link" target="_blank">Starlite Pavilion, Bhagath Singh Nagar, Balanagar, Hyderabad, Telangana 500037</a>
+                            <a href="https://maps.app.goo.gl/s2B9bTTxEuJyKRLV6" class="footer-link"
+                                target="_blank">Starlite Pavilion, Bhagath Singh Nagar, Balanagar, Hyderabad, Telangana
+                                500037</a>
                         </address>
                     </li>
 
@@ -327,7 +334,8 @@
                     <li class="footer-item">
                         <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
 
-                        <a href="mailto:ubbiosciences@gmail.com?subject=Contact from ubbiosciences.com Website" class="footer-link">ubbiosciences@gmail.com</a>
+                        <a href="mailto:ubbiosciences@gmail.com?subject=Contact from ubbiosciences.com Website"
+                            class="footer-link">ubbiosciences@gmail.com</a>
                     </li>
 
                 </ul>
@@ -366,6 +374,12 @@
   -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.getElementById('am-clean').addEventListener('click', function () {
+           window.location.href = 'https://pages.razorpay.com/stores/st_OXpfwE7xASeVdZ/product/li_OXpsbXypFdI9sA';
+        })
+    </script>
 
 
 </body>

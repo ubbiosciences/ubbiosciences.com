@@ -62,6 +62,24 @@
   background-color: #218838;
 }
 
+.price {
+  display: flex;
+  gap: 10px;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #d9534f;
+  margin-right: 10px;
+}
+
+.discounted-price {
+  color: #888;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 600px) {
   .product {
       flex-direction: column;

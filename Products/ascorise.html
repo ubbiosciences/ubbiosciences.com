@@ -103,7 +103,7 @@
 
             <div class="header-actions">
 
-                <a href="/products.html" class="header-action-btn login-btn" aria-hidden="true" id="loginBtn">
+                <a href="https://pages.razorpay.com/stores/st_OXpfwE7xASeVdZ/checkout" class="header-action-btn login-btn" aria-hidden="true" id="loginBtn">
                     <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
                     <span class="span" id="products">Cart</span>
                 </a>
@@ -152,8 +152,12 @@
 
                     <h2>PACKING:</h2>
                     <p>Presentation: 500 Grams Jar</p>
+                    <p class="price">
+                        <span class="discounted-price">Rs. 1398.00</span>
+                        <span class="original-price">Rs. 1997.00</span>
+                    </p>
                 </div>
-                <button class="add-to-cart">Buy Now</button>
+                <button id="ascorise" class="add-to-cart">Buy Now</button>
             </div>
         </div>
     </section>
@@ -367,7 +371,11 @@
   -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script>
+        document.getElementById('ascorise').addEventListener('click', function () {
+           window.location.href = 'https://pages.razorpay.com/stores/st_OXpfwE7xASeVdZ/product/li_OXpsbYGGHKqOOa';
+        })
+    </script>
 
 </body>
 

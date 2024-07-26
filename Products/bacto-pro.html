@@ -99,7 +99,7 @@
 
             <div class="header-actions">
 
-                <a href="/products.html" class="header-action-btn login-btn" aria-hidden="true" id="loginBtn">
+                <a href="https://pages.razorpay.com/stores/st_OXpfwE7xASeVdZ/checkout" class="header-action-btn login-btn" aria-hidden="true" id="loginBtn">
                     <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
                     <span class="span" id="products">Cart</span>
                 </a>
@@ -158,7 +158,11 @@
 
                 <h2>PRESENTATION:</h2>
                 <p>500 Grams Pouch</p>
-                <button class="add-to-cart">Buy Now</button>
+                <p class="price">
+                    <span class="discounted-price">Rs. 1809.00</span>
+                    <span class="original-price">Rs. 2585.00</span>
+                </p>
+                <button id="bacto-pro" class="add-to-cart">Buy Now</button>
             </div>
 
         </div>
@@ -373,6 +377,11 @@
   -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        document.getElementById('bacto-pro').addEventListener('click', function () {
+           window.location.href = 'https://pages.razorpay.com/stores/st_OXpfwE7xASeVdZ/product/li_OXpsbYooFnGIWW';
+        })
+    </script>
 </body>
 
 </html>
